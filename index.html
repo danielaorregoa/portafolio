@@ -2,71 +2,135 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Daniela Orrego Arcila | Estadística & Data Analyst</title>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <meta
         name="description"
-        content="Portafolio profesional de Daniela Orrego Arcila, estudiante de Estadística y Data Analyst en formación."
+        content="Portafolio profesional de Daniela Orrego Arcila, estudiante de Estadística y Data Analyst."
     >
 
-    <link rel="stylesheet" href="style.css">
+    <title>
+        Daniela Orrego Arcila | Estudiante de Estadística | Data Analyst
+    </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet"
     >
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
 
-    <header class="header">
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
 
-        <nav class="navbar">
+    <header class="site-header" id="top">
 
-            <a href="#inicio" class="logo">
-                DO<span>.</span>
+        <nav
+            class="nav container"
+            aria-label="Navegación principal"
+        >
+
+            <a
+                class="brand"
+                href="#inicio"
+                aria-label="Ir al inicio"
+            >
+
+                <span class="brand-mark">
+                    &lt;/&gt;
+                </span>
+
+                <span>
+                    Daniela Orrego Arcila
+                </span>
+
             </a>
 
+
             <button
-                class="menu-button"
-                id="menuButton"
+                class="nav-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="nav-menu"
                 aria-label="Abrir menú"
             >
-                ☰
+
+                <span></span>
+                <span></span>
+                <span></span>
+
             </button>
 
-            <ul class="nav-menu" id="navMenu">
+
+            <ul
+                class="nav-menu"
+                id="nav-menu"
+            >
 
                 <li>
-                    <a href="#inicio">Inicio</a>
+                    <a
+                        class="nav-link active"
+                        href="#inicio"
+                    >
+                        Inicio
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#sobre-mi">Sobre mí</a>
+                    <a
+                        class="nav-link"
+                        href="#sobre-mi"
+                    >
+                        Sobre mí
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#habilidades">Habilidades</a>
+                    <a
+                        class="nav-link"
+                        href="#habilidades"
+                    >
+                        Habilidades
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#formacion">Formación</a>
+                    <a
+                        class="nav-link"
+                        href="#formacion"
+                    >
+                        Formación
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#experiencia">Experiencia</a>
-                </li>
-
-                <li>
-                    <a href="#contacto">Contacto</a>
+                    <a
+                        class="nav-link"
+                        href="#contacto"
+                    >
+                        Contacto
+                    </a>
                 </li>
 
             </ul>
@@ -76,98 +140,119 @@
     </header>
 
 
-    <!-- ================= INICIO ================= -->
 
     <main>
 
-        <section class="hero" id="inicio">
 
-            <div class="hero-content">
+        <!-- =====================================================
+             INICIO
+        ====================================================== -->
 
-                <div class="availability">
-                    <span></span>
-                    Disponible para oportunidades
-                </div>
+        <section
+            class="hero section"
+            id="inicio"
+        >
 
-                <p class="eyebrow">
-                    ESTUDIANTE DE ESTADÍSTICA · DATA ANALYST
-                </p>
-
-                <h1>
-                    Daniela
-                    <span>Orrego Arcila</span>
-                </h1>
-
-                <p class="hero-text">
-                    Estudiante de Estadística en la Universidad de Antioquia,
-                    interesada en transformar datos en información útil para
-                    comprender problemas, encontrar patrones y apoyar la toma
-                    de decisiones.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#sobre-mi" class="button button-primary">
-                        Conocer mi perfil
-                    </a>
-
-                    <a href="#contacto" class="button button-secondary">
-                        Contactarme
-                    </a>
-
-                </div>
-
-                <div class="hero-location">
-                    <span>⌖</span>
-                    Medellín, Colombia
-                </div>
-
-            </div>
+            <div class="container hero-grid">
 
 
-            <!-- Visual tecnológico -->
+                <div class="hero-content reveal">
 
-            <div class="hero-visual">
-
-                <div class="visual-grid"></div>
-
-                <div class="data-card main-card">
-
-                    <div class="card-header">
-
-                        <div>
-                            <small>PERFIL</small>
-                            <h3>Data & Statistics</h3>
-                        </div>
-
-                        <div class="status-dot"></div>
-
-                    </div>
+                    <p class="eyebrow">
+                        ESTUDIANTE DE ESTADÍSTICA · DATA ANALYST
+                    </p>
 
 
-                    <div class="chart">
+                    <h1>
 
-                        <div class="chart-line"></div>
+                        Convierto datos en
 
-                        <div class="chart-point point-1"></div>
-                        <div class="chart-point point-2"></div>
-                        <div class="chart-point point-3"></div>
-                        <div class="chart-point point-4"></div>
-                        <div class="chart-point point-5"></div>
+                        <span>
+                            decisiones claras.
+                        </span>
+
+                    </h1>
+
+
+                    <p class="hero-text">
+
+                        Estudiante de Estadística de la
+                        Universidad de Antioquia, en cuarto semestre,
+                        con formación en análisis de datos y
+                        orientación a mi primera oportunidad laboral.
+
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a
+                            class="btn btn-primary"
+                            href="#habilidades"
+                        >
+
+                            Ver habilidades
+
+                            <span>
+                                ↗
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            class="btn btn-secondary"
+                            href="#contacto"
+                        >
+
+                            Contactarme
+
+                        </a>
 
                     </div>
 
 
-                    <div class="data-values">
+                    <div
+                        class="hero-meta"
+                        aria-label="Datos profesionales"
+                    >
 
                         <div>
-                            <small>STATISTICS</small>
-                            <strong>4º SEM.</strong>
+
+                            <strong>
+                                4.º
+                            </strong>
+
+                            <span>
+                                Semestre de Estadística
+                            </span>
+
                         </div>
 
+
                         <div>
-                            <small>EXCEL</small>
-                            <strong>INTERMEDIO</strong>
+
+                            <strong>
+                                Python · Excel
+                            </strong>
+
+                            <span>
+                                R · Jupyter · Google Colab
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                Disponible
+                            </strong>
+
+                            <span>
+                                Medio tiempo · Remoto · Híbrido · Freelance
+                            </span>
+
                         </div>
 
                     </div>
@@ -175,19 +260,196 @@
                 </div>
 
 
-                <div class="floating-card card-python">
-                    <span>PY</span>
-                    Python
-                </div>
 
-                <div class="floating-card card-statistics">
-                    <span>μ</span>
-                    Estadística
-                </div>
+                <!-- VISUAL DE DATOS -->
 
-                <div class="floating-card card-excel">
-                    <span>EX</span>
-                    Excel
+                <div
+                    class="hero-visual reveal"
+                    aria-label="Visualización de datos decorativa"
+                >
+
+                    <div class="orb orb-one"></div>
+
+                    <div class="orb orb-two"></div>
+
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-top">
+
+                            <div>
+
+                                <span class="mini-label">
+                                    DATA INSIGHT
+                                </span>
+
+                                <h2>
+                                    Ventas trimestrales
+                                </h2>
+
+                            </div>
+
+
+                            <span
+                                class="status-dot"
+                                title="Datos actualizados"
+                            ></span>
+
+                        </div>
+
+
+                        <div class="chart">
+
+                            <div class="chart-gridline"></div>
+                            <div class="chart-gridline"></div>
+                            <div class="chart-gridline"></div>
+
+
+                            <svg
+                                viewBox="0 0 500 190"
+                                role="img"
+                                aria-label="Gráfico de línea ascendente"
+                            >
+
+                                <defs>
+
+                                    <linearGradient
+                                        id="areaGradient"
+                                        x1="0"
+                                        x2="0"
+                                        y1="0"
+                                        y2="1"
+                                    >
+
+                                        <stop
+                                            offset="0%"
+                                            stop-color="#58d5c9"
+                                            stop-opacity=".32"
+                                        />
+
+                                        <stop
+                                            offset="100%"
+                                            stop-color="#58d5c9"
+                                            stop-opacity="0"
+                                        />
+
+                                    </linearGradient>
+
+                                </defs>
+
+
+                                <path
+                                    class="chart-area"
+                                    d="M0,165 C55,150 68,140 110,145 C150,150 175,116 215,126 C255,136 268,92 305,97 C345,103 360,65 402,74 C440,83 456,40 500,48 L500,190 L0,190 Z"
+                                />
+
+
+                                <path
+                                    class="chart-line"
+                                    d="M0,165 C55,150 68,140 110,145 C150,150 175,116 215,126 C255,136 268,92 305,97 C345,103 360,65 402,74 C440,83 456,40 500,48"
+                                />
+
+
+                                <circle
+                                    cx="500"
+                                    cy="48"
+                                    r="6"
+                                    class="chart-point"
+                                ></circle>
+
+                            </svg>
+
+                        </div>
+
+
+                        <div class="dashboard-stats">
+
+                            <div>
+
+                                <span>
+                                    Ingresos
+                                </span>
+
+                                <strong>
+                                    $84.2K
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Crecimiento
+                                </span>
+
+                                <strong class="positive">
+                                    +18.6%
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Conversión
+                                </span>
+
+                                <strong>
+                                    7.4%
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="floating-card floating-card-one">
+
+                        <span class="floating-icon">
+                            Σ
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                +24.8%
+                            </strong>
+
+                            <small>
+                                eficiencia
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="floating-card floating-card-two">
+
+                        <span class="floating-icon">
+                            SQL
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                125K
+                            </strong>
+
+                            <small>
+                                registros analizados
+                            </small>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -195,104 +457,84 @@
         </section>
 
 
-        <!-- ================= SOBRE MÍ ================= -->
 
-        <section class="section about-section" id="sobre-mi">
+        <!-- =====================================================
+             SOBRE MÍ
+        ====================================================== -->
 
-            <div class="section-container">
+        <section
+            class="section section-dark"
+            id="sobre-mi"
+        >
 
-                <div class="section-heading">
+            <div class="container two-col">
+
+
+                <div class="section-heading reveal">
 
                     <p class="eyebrow">
                         SOBRE MÍ
                     </p>
 
                     <h2>
-                        Construyendo una carrera
-                        <span>alrededor de los datos.</span>
+
+                        Curiosidad analítica.
+
+                        <br>
+
+                        Impacto medible.
+
                     </h2>
 
                 </div>
 
 
-                <div class="about-grid">
 
-                    <div class="about-description">
+                <div class="about-copy reveal">
 
-                        <p>
-                            Soy estudiante de <strong>Estadística</strong> en
-                            cuarto semestre en la Universidad de Antioquia,
-                            actualmente construyendo mi perfil profesional
-                            orientado al análisis de datos.
-                        </p>
+                    <p class="lead">
 
-                        <p>
-                            Me considero una persona analítica, responsable,
-                            curiosa y organizada. Me interesa trabajar con
-                            información de manera estructurada y detallada,
-                            buscando comprender los datos antes de tomar
-                            conclusiones.
-                        </p>
+                        Me interesa entender
 
-                        <p>
-                            Estoy buscando mi <strong>primera oportunidad
-                            laboral relacionada con datos</strong>, donde
-                            pueda aplicar mis conocimientos, continuar
-                            aprendiendo y aportar desde mi formación
-                            estadística.
-                        </p>
+                        <strong>
+                            qué está pasando, por qué ocurre
+                            y qué podemos hacer al respecto.
+                        </strong>
 
-                    </div>
+                    </p>
 
 
-                    <div class="traits">
+                    <p>
 
-                        <div class="trait">
-                            <span>01</span>
-                            <div>
-                                <h3>Atención al detalle</h3>
-                                <p>
-                                    Cuidado y precisión al trabajar con
-                                    información.
-                                </p>
-                            </div>
-                        </div>
+                        Combino fundamentos estadísticos,
+                        programación y visualización para explorar
+                        datos, detectar patrones y construir historias
+                        que faciliten la toma de decisiones.
 
+                        Mi enfoque es práctico:
+                        preguntas claras, análisis reproducible
+                        y resultados comprensibles.
 
-                        <div class="trait">
-                            <span>02</span>
-                            <div>
-                                <h3>Comunicación</h3>
-                                <p>
-                                    Capacidad para explicar ideas de manera
-                                    clara y comprensible.
-                                </p>
-                            </div>
-                        </div>
+                    </p>
 
 
-                        <div class="trait">
-                            <span>03</span>
-                            <div>
-                                <h3>Trabajo en equipo</h3>
-                                <p>
-                                    Colaboración y disposición para construir
-                                    soluciones conjuntamente.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="about-pills">
 
+                        <span>
+                            📊 Estadística
+                        </span>
 
-                        <div class="trait">
-                            <span>04</span>
-                            <div>
-                                <h3>Resolución de problemas</h3>
-                                <p>
-                                    Análisis estructurado para encontrar
-                                    alternativas y soluciones.
-                                </p>
-                            </div>
-                        </div>
+                        <span>
+                            🐍 Python
+                        </span>
+
+                        <span>
+                            📗 Excel
+                        </span>
+
+                        <span>
+                            📈 Análisis de datos
+                        </span>
 
                     </div>
 
@@ -303,435 +545,180 @@
         </section>
 
 
-        <!-- ================= HABILIDADES ================= -->
 
-        <section class="section skills-section" id="habilidades">
+        <!-- =====================================================
+             HABILIDADES
+        ====================================================== -->
 
-            <div class="section-container">
+        <section
+            class="section"
+            id="habilidades"
+        >
 
-                <div class="section-heading centered">
+            <div class="container">
+
+
+                <div class="section-heading centered reveal">
 
                     <p class="eyebrow">
-                        HABILIDADES
+                        HABILIDADES TÉCNICAS
                     </p>
 
                     <h2>
-                        Herramientas y conocimientos
-                        <span>en construcción.</span>
+
+                        Mi stack para convertir datos
+
+                        <br>
+
+                        en información útil.
+
                     </h2>
 
-                    <p class="section-intro">
-                        Una base técnica que estoy fortaleciendo a través de
-                        mi formación académica y cursos complementarios.
-                    </p>
-
                 </div>
+
 
 
                 <div class="skills-grid">
 
 
-                    <div class="skill-card">
+                    <article class="skill-card">
 
-                        <div class="skill-top">
-                            <div class="skill-icon python">
-                                PY
-                            </div>
-
-                            <span class="level">
-                                BÁSICO
-                            </span>
+                        <div class="skill-icon">
+                            PY
                         </div>
-
-                        <h3>Python</h3>
-
-                        <p>
-                            Herramienta para análisis, manipulación y
-                            exploración de datos.
-                        </p>
-
-                        <div class="skill-bar">
-                            <span style="width: 38%;"></span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-card">
-
-                        <div class="skill-top">
-                            <div class="skill-icon excel">
-                                EX
-                            </div>
-
-                            <span class="level intermediate">
-                                INTERMEDIO
-                            </span>
-                        </div>
-
-                        <h3>Excel</h3>
-
-                        <p>
-                            Manejo de hojas de cálculo y herramientas para
-                            organizar y analizar información.
-                        </p>
-
-                        <div class="skill-bar">
-                            <span style="width: 68%;"></span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-card">
-
-                        <div class="skill-top">
-                            <div class="skill-icon r">
-                                R
-                            </div>
-
-                            <span class="level">
-                                BÁSICO
-                            </span>
-                        </div>
-
-                        <h3>R</h3>
-
-                        <p>
-                            Herramienta estadística en proceso de aprendizaje
-                            y fortalecimiento.
-                        </p>
-
-                        <div class="skill-bar">
-                            <span style="width: 35%;"></span>
-                        </div>
-
-                    </div>
-
-
-                    <div class="skill-card">
-
-                        <div class="skill-top">
-                            <div class="skill-icon notebook">
-                                &lt;/&gt;
-                            </div>
-
-                            <span class="level">
-                                BÁSICO
-                            </span>
-                        </div>
-
-                        <h3>Jupyter / Colab</h3>
-
-                        <p>
-                            Entornos para desarrollar, documentar y ejecutar
-                            análisis de datos.
-                        </p>
-
-                        <div class="skill-bar">
-                            <span style="width: 40%;"></span>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-
-                <!-- Estadística -->
-
-                <div class="statistics-box">
-
-                    <div class="statistics-title">
-
-                        <div class="statistics-icon">
-                            σ
-                        </div>
-
-                        <div>
-                            <p class="eyebrow">
-                                FUNDAMENTOS
-                            </p>
-
-                            <h3>
-                                Conocimientos estadísticos
-                            </h3>
-                        </div>
-
-                    </div>
-
-
-                    <div class="statistics-tags">
-
-                        <span>Estadística descriptiva</span>
-
-                        <span>Distribuciones</span>
-
-                        <span>Intervalos de confianza</span>
-
-                        <span>Pruebas de hipótesis</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= FORMACIÓN ================= -->
-
-        <section class="section education-section" id="formacion">
-
-            <div class="section-container">
-
-                <div class="section-heading">
-
-                    <p class="eyebrow">
-                        FORMACIÓN
-                    </p>
-
-                    <h2>
-                        Aprendizaje académico y
-                        <span>complementario.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="education-layout">
-
-                    <div class="education-main">
-
-                        <div class="education-item featured">
-
-                            <div class="education-date">
-                                ACTUALIDAD
-                            </div>
-
-                            <div>
-
-                                <span class="education-type">
-                                    FORMACIÓN UNIVERSITARIA
-                                </span>
-
-                                <h3>
-                                    Estadística
-                                </h3>
-
-                                <p class="institution">
-                                    Universidad de Antioquia
-                                </p>
-
-                                <p>
-                                    Cuarto semestre de formación académica
-                                    en Estadística.
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="courses">
 
                         <h3>
-                            Formación complementaria
+                            Python
                         </h3>
 
+                        <p>
+                            Nivel básico · Limpieza,
+                            manipulación y análisis exploratorio.
+                        </p>
 
-                        <div class="course-item">
-
-                            <div class="course-number">
-                                01
-                            </div>
-
-                            <div>
-                                <h4>
-                                    Análisis de Datos
-                                </h4>
-
-                                <p>
-                                    Fundamentos de Datos y Limpieza
-                                </p>
-                            </div>
-
+                        <div class="progress">
+                            <span style="width:45%"></span>
                         </div>
 
-
-                        <div class="course-item">
-
-                            <div class="course-number">
-                                02
-                            </div>
-
-                            <div>
-                                <h4>
-                                    Ciencia e Ingeniería de Datos
-                                </h4>
-
-                                <p>
-                                    Curso de formación complementaria
-                                </p>
-                            </div>
-
-                        </div>
+                    </article>
 
 
-                        <div class="course-item">
 
-                            <div class="course-number">
-                                03
-                            </div>
+                    <article class="skill-card">
 
-                            <div>
-                                <h4>
-                                    Excel Intermedio
-                                </h4>
-
-                                <p>
-                                    Curso certificado
-                                </p>
-                            </div>
-
-                        </div>
-
-
-                        <div class="course-item">
-
-                            <div class="course-number">
-                                04
-                            </div>
-
-                            <div>
-                                <h4>
-                                    Medellínglish A1
-                                </h4>
-
-                                <p>
-                                    Programa de formación en inglés
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CERTIFICACIONES ================= -->
-
-        <section class="section certifications-section">
-
-            <div class="section-container">
-
-                <div class="section-heading centered">
-
-                    <p class="eyebrow">
-                        CERTIFICACIONES
-                    </p>
-
-                    <h2>
-                        Formación que
-                        <span>respalda mi perfil.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="certifications-grid">
-
-
-                    <article class="certificate-card">
-
-                        <div class="certificate-icon">
+                        <div class="skill-icon">
                             EX
                         </div>
 
-                        <div>
-                            <span>2026</span>
+                        <h3>
+                            Excel
+                        </h3>
 
-                            <h3>
-                                Excel Intermedio
-                            </h3>
+                        <p>
+                            Nivel intermedio · Análisis,
+                            fórmulas y organización de datos.
+                        </p>
 
-                            <p>
-                                Certificación de formación en Excel.
-                            </p>
+                        <div class="progress">
+                            <span style="width:68%"></span>
                         </div>
 
                     </article>
 
 
-                    <article class="certificate-card">
 
-                        <div class="certificate-icon">
-                            DA
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            R
                         </div>
 
-                        <div>
-                            <span>2026</span>
+                        <h3>
+                            R
+                        </h3>
 
-                            <h3>
-                                Análisis de Datos
-                            </h3>
+                        <p>
+                            Nivel básico · Fundamentos
+                            para análisis estadístico.
+                        </p>
 
-                            <p>
-                                Fundamentos de Datos y Limpieza.
-                            </p>
-                        </div>
-
-                    </article>
-
-
-                    <article class="certificate-card">
-
-                        <div class="certificate-icon">
-                            DI
-                        </div>
-
-                        <div>
-                            <span>2025</span>
-
-                            <h3>
-                                Ciencia e Ingeniería de Datos
-                            </h3>
-
-                            <p>
-                                Curso de formación complementaria.
-                            </p>
+                        <div class="progress">
+                            <span style="width:40%"></span>
                         </div>
 
                     </article>
 
 
-                    <article class="certificate-card">
 
-                        <div class="certificate-icon">
-                            A1
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            NB
                         </div>
 
-                        <div>
-                            <span>2025</span>
+                        <h3>
+                            Jupyter / Colab
+                        </h3>
 
-                            <h3>
-                                Medellínglish A1
-                            </h3>
+                        <p>
+                            Nivel básico · Entornos
+                            para análisis reproducible.
+                        </p>
 
-                            <p>
-                                Programa de Idiomas EAFIT – Sapiencia.
-                            </p>
+                        <div class="progress">
+                            <span style="width:45%"></span>
                         </div>
 
                     </article>
+
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            Σ
+                        </div>
+
+                        <h3>
+                            Estadística
+                        </h3>
+
+                        <p>
+                            Descriptiva · Distribuciones ·
+                            Intervalos de confianza ·
+                            Pruebas de hipótesis.
+                        </p>
+
+                        <div class="progress">
+                            <span style="width:65%"></span>
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            ↗
+                        </div>
+
+                        <h3>
+                            Habilidades profesionales
+                        </h3>
+
+                        <p>
+                            Atención al detalle · Comunicación ·
+                            Trabajo en equipo · Liderazgo ·
+                            Resolución de problemas.
+                        </p>
+
+                        <div class="progress">
+                            <span style="width:88%"></span>
+                        </div>
+
+                    </article>
+
 
                 </div>
 
@@ -740,83 +727,211 @@
         </section>
 
 
-        <!-- ================= EXPERIENCIA ================= -->
 
-        <section class="section experience-section" id="experiencia">
+        <!-- =====================================================
+             FORMACIÓN
+        ====================================================== -->
 
-            <div class="section-container">
+        <section
+            class="section education-section"
+            id="formacion"
+        >
+
+            <div class="container">
+
 
                 <div class="section-heading">
 
-                    <p class="eyebrow">
-                        EXPERIENCIA
-                    </p>
+                    <div>
 
-                    <h2>
-                        Experiencia que también
-                        <span>forma habilidades.</span>
-                    </h2>
+                        <p class="eyebrow">
+                            FORMACIÓN ACADÉMICA
+                        </p>
+
+                        <h2>
+
+                            Una formación construida entre
+
+                            <span>
+                                estadística y gestión.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+
+                    <p>
+
+                        Formación universitaria,
+                        técnica y complementaria orientada
+                        al análisis y la toma de decisiones.
+
+                    </p>
 
                 </div>
 
 
-                <div class="experience-grid">
+
+                <div class="education-grid">
 
 
-                    <div class="experience-card">
+                    <article class="education-card education-main">
 
-                        <div class="experience-number">
+                        <span class="education-number">
                             01
-                        </div>
+                        </span>
 
-                        <div>
+                        <p class="education-type">
+                            FORMACIÓN UNIVERSITARIA · ACTUALIDAD
+                        </p>
 
-                            <span class="experience-label">
-                                EXPERIENCIA ADMINISTRATIVA
-                            </span>
+                        <h3>
+                            Estadística
+                        </h3>
 
-                            <h3>
-                                Auxiliar administrativo
-                            </h3>
+                        <h4>
+                            Universidad de Antioquia
+                        </h4>
 
-                            <p class="institution">
-                                Universidad de Antioquia
-                            </p>
+                        <p>
 
-                            <p>
-                                Experiencia desarrollando funciones
-                                administrativas dentro del entorno
-                                universitario.
-                            </p>
+                            Cuarto semestre.
 
-                        </div>
+                            Formación enfocada en fundamentos
+                            estadísticos, análisis cuantitativo
+                            y manejo de datos.
 
-                    </div>
+                        </p>
+
+                    </article>
 
 
-                    <div class="experience-card">
 
-                        <div class="experience-number">
+                    <article class="education-card">
+
+                        <span class="education-number pink-number">
                             02
-                        </div>
+                        </span>
 
-                        <div>
+                        <p class="education-type pink-label">
+                            FORMACIÓN TÉCNICA · 2024
+                        </p>
 
-                            <span class="experience-label">
-                                EXPERIENCIA ACADÉMICA
-                            </span>
+                        <h3>
+                            Técnico Laboral por Competencias
+                        </h3>
 
-                            <h3>
-                                Clases particulares
-                            </h3>
+                        <h4>
+                            Auxiliar Administrativo y Financiero
+                        </h4>
 
-                            <p>
-                                Experiencia apoyando procesos de aprendizaje
-                                mediante clases particulares y explicación
-                                de contenidos.
-                            </p>
+                        <p>
 
-                        </div>
+                            Instituto de Educación Comfenalco
+                            “Consuelo Montoya Gil”, Medellín.
+
+                            Formación de 1.152 horas.
+
+                            Expedición:
+                            23 de noviembre de 2024.
+
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="education-card">
+
+                        <span class="education-number green-number">
+                            03
+                        </span>
+
+                        <p class="education-type green-label">
+                            EDUCACIÓN MEDIA · 2024
+                        </p>
+
+                        <h3>
+                            Bachiller en Media Técnica
+                        </h3>
+
+                        <h4>
+                            Especialidad Comercio
+                        </h4>
+
+                        <p>
+
+                            Institución Educativa Alvernia,
+                            Medellín, Antioquia.
+
+                            Graduación:
+                            23 de noviembre de 2024.
+
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+
+
+                <div class="certification-strip">
+
+
+                    <div>
+
+                        <strong>
+                            Análisis de Datos ·
+                            Fundamentos de Datos, Limpieza
+                        </strong>
+
+                        <span>
+                            66 horas · Alcaldía de Medellín
+                            &amp; Cymetria Group
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Ciencia e Ingeniería de Datos
+                        </strong>
+
+                        <span>
+                            Certificación · diciembre de 2025
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Excel Intermedio
+                        </strong>
+
+                        <span>
+                            Certificación · marzo de 2026
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>
+                            Medellínglish Nivel A1
+                        </strong>
+
+                        <span>
+                            Programa de Idiomas
+                            EAFIT - Sapiencia ·
+                            diciembre de 2025
+                        </span>
 
                     </div>
 
@@ -828,180 +943,254 @@
         </section>
 
 
-        <!-- ================= IDIOMAS ================= -->
 
-        <section class="languages-section">
+        <!-- =====================================================
+             CONTACTO
+        ====================================================== -->
 
-            <div class="section-container language-container">
+        <section
+            class="section contact-section"
+            id="contacto"
+        >
 
-                <div>
-
-                    <p class="eyebrow">
-                        IDIOMAS
-                    </p>
-
-                    <h2>
-                        Comunicación en
-                        <span>dos idiomas.</span>
-                    </h2>
-
-                </div>
+            <div class="container contact-card contact-card-form">
 
 
-                <div class="language-cards">
-
-                    <div class="language-card">
-
-                        <div>
-                            <strong>ES</strong>
-                        </div>
-
-                        <div>
-                            <h3>Español</h3>
-                            <p>Idioma nativo</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="language-card">
-
-                        <div>
-                            <strong>EN</strong>
-                        </div>
-
-                        <div>
-                            <h3>Inglés</h3>
-                            <p>Nivel A2</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTACTO ================= -->
-
-        <section class="contact-section" id="contacto">
-
-            <div class="contact-container">
-
-                <div class="contact-text">
+                <div class="contact-intro">
 
                     <p class="eyebrow">
                         CONTACTO
                     </p>
 
+
                     <h2>
-                        Construyamos algo
-                        <span>con propósito.</span>
+
+                        ¿Hablamos sobre
+
+                        <span>
+                            una oportunidad?
+                        </span>
+
                     </h2>
 
+
                     <p>
-                        Actualmente estoy buscando mi primera oportunidad
-                        laboral relacionada con datos y estoy interesada en
-                        posiciones de medio tiempo, freelance, remotas o
-                        híbridas.
+
+                        Estoy buscando mi primera oportunidad
+                        laboral en análisis de datos.
+
+                        Me interesan posiciones de medio tiempo,
+                        freelance, remotas o híbridas.
+
                     </p>
 
-                </div>
 
-
-                <div class="contact-links">
 
                     <a
-                        href="https://www.linkedin.com/in/daniela-o-5859a2207"
+                        href="https://wa.me/573011241511"
                         target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-item"
+                        rel="noopener"
+                        class="direct-whatsapp"
                     >
 
-                        <div class="contact-icon">
-                            in
-                        </div>
+                        <span>
+                            WA
+                        </span>
+
 
                         <div>
-                            <small>LINKEDIN</small>
-                            <strong>
-                                Daniela Orrego Arcila
-                            </strong>
-                        </div>
 
-                        <span>↗</span>
+                            <small>
+                                WHATSAPP
+                            </small>
 
-                    </a>
-
-
-                    <a
-                        href="tel:+573011241511"
-                        class="contact-item"
-                    >
-
-                        <div class="contact-icon">
-                            ☎
-                        </div>
-
-                        <div>
-                            <small>TELÉFONO</small>
                             <strong>
                                 +57 301 124 1511
                             </strong>
+
                         </div>
 
-                        <span>↗</span>
+
+                        <b>
+                            ↗
+                        </b>
 
                     </a>
 
 
-                    <div class="contact-item location-item">
 
-                        <div class="contact-icon">
-                            ⌖
-                        </div>
+                    <a
+                        href="mailto:danielaorregoarcila2007@gmail.com"
+                        class="direct-email"
+                    >
+
+                        <span>
+                            @
+                        </span>
+
 
                         <div>
-                            <small>UBICACIÓN</small>
+
+                            <small>
+                                CORREO ELECTRÓNICO
+                            </small>
+
                             <strong>
-                                Medellín, Colombia
+                                danielaorregoarcila2007@gmail.com
                             </strong>
+
                         </div>
+
+
+                        <b>
+                            ↗
+                        </b>
+
+                    </a>
+
+                </div>
+
+
+
+                <form
+                    class="contact-form"
+                    id="contactForm"
+                >
+
+
+                    <div class="form-row">
+
+
+                        <label>
+
+                            <span>
+                                Nombre
+                            </span>
+
+                            <input
+                                type="text"
+                                id="contactName"
+                                placeholder="Tu nombre"
+                                required
+                            >
+
+                        </label>
+
+
+
+                        <label>
+
+                            <span>
+                                Correo
+                            </span>
+
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                placeholder="tucorreo@email.com"
+                                required
+                            >
+
+                        </label>
+
 
                     </div>
 
-                </div>
+
+
+                    <label>
+
+                        <span>
+                            Asunto
+                        </span>
+
+                        <input
+                            type="text"
+                            id="contactSubject"
+                            placeholder="Oportunidad laboral"
+                            required
+                        >
+
+                    </label>
+
+
+
+                    <label>
+
+                        <span>
+                            Mensaje
+                        </span>
+
+                        <textarea
+                            id="contactMessage"
+                            rows="6"
+                            placeholder="Escribe tu mensaje..."
+                            required
+                        ></textarea>
+
+                    </label>
+
+
+
+                    <button
+                        type="submit"
+                        class="send-button"
+                    >
+
+                        Enviar mensaje por WhatsApp
+
+                        <span>
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <small class="form-note">
+
+                        Al enviar, se abrirá WhatsApp
+                        con el mensaje listo para enviarme.
+
+                    </small>
+
+
+                </form>
 
             </div>
 
         </section>
 
+
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
 
-    <footer>
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
 
-        <div class="footer-container">
+    <footer class="footer">
 
-            <div class="footer-logo">
-                DO<span>.</span>
-            </div>
+        <div class="container footer-inner">
 
-            <p>
-                Daniela Orrego Arcila · Estudiante de Estadística | Data Analyst
-            </p>
+            <span>
 
-            <p>
-                © <span id="year"></span>
-            </p>
+                ©
+                <span id="year"></span>
+                Daniela Orrego Arcila
+
+            </span>
+
+
+            <span>
+                Diseñado para datos,
+                decisiones y crecimiento.
+            </span>
 
         </div>
 
     </footer>
+
 
 
     <script src="script.js"></script>
